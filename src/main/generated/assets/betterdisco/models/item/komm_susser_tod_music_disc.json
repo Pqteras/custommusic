@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "betterdisco:item/komm_susser_tod_music_disc"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "betterdisco:item/lena_raine_creator_music_disc"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "betterdisco:item/remember_that_night_music_disc"
+  }
+}

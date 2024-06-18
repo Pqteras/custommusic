@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "betterdisco:item/miwa_change_music_disc"
+    }
+  }
