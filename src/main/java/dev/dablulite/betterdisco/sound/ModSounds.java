@@ -21,6 +21,12 @@ public class ModSounds {
 
     public static SoundEvent REMEMBER_THAT_NIGHT = registerSoundEvent("remember_that_night");
 
+    public static SoundEvent ROUTINES_IN_THE_NIGHT = registerSoundEvent("routines_in_the_night");
+
+    public static SoundEvent NAVIGATING = registerSoundEvent("navigating");
+
+    public static SoundEvent PALADIN_STRAIT = registerSoundEvent("paladin_strait");
+
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier("betterdisco", name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

@@ -26,6 +26,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NEVER_GONNA_GIVE_YOU_UP_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MIWA_CHANGE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.REMEMBER_THAT_NIGHT_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ROUTINES_IN_THE_NIGHT_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NAVIGATING_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PALADIN_STRAIT_MUSIC_DISC, Models.GENERATED);
     }
 
     @Override

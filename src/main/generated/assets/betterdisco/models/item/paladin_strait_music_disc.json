@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "betterdisco:item/paladin_strait_music_disc"
+  }
+}

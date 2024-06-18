@@ -54,5 +54,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS).add(ModItems.REMEMBER_THAT_NIGHT_MUSIC_DISC);
 
         getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.REMEMBER_THAT_NIGHT_MUSIC_DISC);
+
+
+
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS).add(ModItems.ROUTINES_IN_THE_NIGHT_MUSIC_DISC);
+
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.ROUTINES_IN_THE_NIGHT_MUSIC_DISC);
+
+
+
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS).add(ModItems.NAVIGATING_MUSIC_DISC);
+
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.NAVIGATING_MUSIC_DISC);
+
+
+
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS).add(ModItems.PALADIN_STRAIT_MUSIC_DISC);
+
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.PALADIN_STRAIT_MUSIC_DISC);
     }
 }

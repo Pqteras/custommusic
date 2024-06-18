@@ -19,6 +19,9 @@ public class BetterDisco implements ModInitializer {
                     .with(ItemEntry.builder(ModItems.KOMM_SUSSER_TOD_MUSIC_DISC).weight(1))
                     .with(ItemEntry.builder(ModItems.MIWA_CHANGE_MUSIC_DISC).weight(1))
                     .with(ItemEntry.builder(ModItems.REMEMBER_THAT_NIGHT_MUSIC_DISC).weight(1))
+                    .with(ItemEntry.builder(ModItems.PALADIN_STRAIT_MUSIC_DISC).weight(1))
+                    .with(ItemEntry.builder(ModItems.NAVIGATING_MUSIC_DISC).weight(1))
+                    .with(ItemEntry.builder(ModItems.ROUTINES_IN_THE_NIGHT_MUSIC_DISC).weight(1))
                     .with(ItemEntry.builder(ModItems.VIGNETTE_MUSIC_DISC).weight(1));
                 tableBuilder.pool(poolBuilder);
             }

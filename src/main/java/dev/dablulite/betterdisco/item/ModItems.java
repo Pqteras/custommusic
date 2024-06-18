@@ -33,6 +33,15 @@ public class ModItems {
     public static final Item REMEMBER_THAT_NIGHT_MUSIC_DISC = registerItem("remember_that_night_music_disc",
         new MusicDiscItem(15, ModSounds.REMEMBER_THAT_NIGHT, new FabricItemSettings().maxCount(1), 249));
 
+    public static final Item ROUTINES_IN_THE_NIGHT_MUSIC_DISC = registerItem("routines_in_the_night_music_disc",
+        new MusicDiscItem(15, ModSounds.ROUTINES_IN_THE_NIGHT, new FabricItemSettings().maxCount(1), 249));
+
+    public static final Item NAVIGATING_MUSIC_DISC = registerItem("navigating_music_disc",
+        new MusicDiscItem(15, ModSounds.NAVIGATING, new FabricItemSettings().maxCount(1), 249));
+
+    public static final Item PALADIN_STRAIT_MUSIC_DISC = registerItem("paladin_strait_music_disc",
+        new MusicDiscItem(15, ModSounds.PALADIN_STRAIT, new FabricItemSettings().maxCount(1), 249));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier("betterdisco", name), item);
     }
@@ -45,6 +54,9 @@ public class ModItems {
         entries.add(NEVER_GONNA_GIVE_YOU_UP_MUSIC_DISC);
         entries.add(MIWA_CHANGE_MUSIC_DISC);
         entries.add(REMEMBER_THAT_NIGHT_MUSIC_DISC);
+        entries.add(ROUTINES_IN_THE_NIGHT_MUSIC_DISC);
+        entries.add(NAVIGATING_MUSIC_DISC);
+        entries.add(PALADIN_STRAIT_MUSIC_DISC);
     }
 
     public static void registerModItems() {
